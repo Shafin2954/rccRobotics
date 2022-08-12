@@ -1,6 +1,6 @@
 function connectToBle() {
   // Connect to a device by passing the service UUID
-  blueTooth.connect(0x8E89BED6, gotCharacteristics);
+  blueTooth.connect(0xffe0, gotCharacteristics);
 }
 
 
