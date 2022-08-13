@@ -5,7 +5,6 @@ function drawScreen() {
     background(100, 100, 255);
 	text('Robot Control center', 20, 500);
     text('Connected :)', 80, 15);
-	connectButton.html('Connected');
   } else {
     background(255, 100, 100);
 	text('Robot Control center', windowWidth/2, windowHeight-500);
