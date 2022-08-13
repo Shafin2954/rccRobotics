@@ -3,7 +3,7 @@ function drawScreen() {
   
   if (isConnected) {
     background(100, 100, 255);
-	text('Robot Control center', 20, 500);
+    text('Robot Control center', 20, 500);
     text('Connected :)', 80, 15);
   } else {
     background(255, 100, 100);
